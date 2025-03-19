@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: podinfod
-        image: ghcr.io/stefanprodan/podinfo:6.5.3
+        image: jayakrishnag/harness-gitops-workshop:3a468c293034dff2ca70478a1a89b26e700c523e
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
